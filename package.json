@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-mnemonic",
+  "name": "bitcore-mnemonic-kore",
   "version": "1.5.0",
-  "description": "BIP39 Mnemonics implemented for Bitcore.",
+  "description": "BIP39 Mnemonics implemented for Bitcore-kore.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/bitpay/bitcore-mnemonic.git"
   },
   "keywords": [
-    "bitcoin",
+    "kore",
     "bitcore",
     "mnemonic",
     "crypto",

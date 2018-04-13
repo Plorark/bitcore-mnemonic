@@ -1,5 +1,5 @@
 <img src="http://bitcore.io/css/images/module-mnemonic.png" alt="bitcore mnemonics" height="35">
-BIP39 Mnemonics for bitcore
+BIP39 Mnemonics for bitcore-kore
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-mnemonic.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-mnemonic)
@@ -13,14 +13,14 @@ A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Mnemo
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-mnemonic
-bower install bitcore-mnemonic
+npm install bitcore-mnemonic-kore
+bower install bitcore-mnemonic-kore
 ```
 
 There are many examples of how to use it on the developer guide [section for mnemonic](http://bitcore.io/guide/module/mnemonic/index.html). For example, the following code would generate a new random mnemonic code and convert it to a `HDPrivateKey`.
 
 ```javascript
-var Mnemonic = require('bitcore-mnemonic');
+var Mnemonic = require('bitcore-mnemonic-kore');
 var code = new Mnemonic(Mnemonic.Words.SPANISH);
 code.toString(); // natal hada sutil año sólido papel jamón combate aula flota ver esfera...
 var xpriv = code.toHDPrivateKey();
